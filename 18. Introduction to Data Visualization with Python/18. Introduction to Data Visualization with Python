@@ -1,0 +1,85 @@
+A = 10
+Name = "jHon"
+Miles = 11.5
+city = "New York"
+# must start with letter or underscore
+# can't start with number
+# can't use reserved words
+# case sensitive
+# no limit on length
+# no spaces or special characters
+
+print(type(A))
+print(type(Name))
+print(type(Miles))
+print(type(city))
+
+
+a  = "this is python string"
+print(a)
+
+
+Name = input("Enter your name: ")
+Age = input("Enter your age: ")
+
+print("Hello " + Name + "! You are " + Age + " years old.")
+
+
+# Data Types Conversion
+
+variable = 10
+
+print(type(variable))
+
+str_variable = str(variable)
+
+print(type(str_variable))
+
+A = 9
+B = 10
+
+print(A + B)
+
+print(B - A)
+
+print(A * B)
+
+print(B / A)
+
+print(B % A)
+
+print(B ** A)
+
+A = True
+
+print(type(A))
+
+B = False
+
+print(type(B))
+
+print(A == B)
+
+print(A != B)
+
+print(A > B)
+
+print(A < B)    
+
+print(A >= B)   
+
+print(A <= B)
+
+A = 10  
+# Assignment Operator
+
+C = A + 10
+
+print(C)
+
+
+
+
+
+
+
